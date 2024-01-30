@@ -1,5 +1,6 @@
 ﻿
 #include <iostream>
+#include <string>
 
 double count_det_M11(double matrix[4][4]) {
     return matrix[1][1] * (matrix[2][2] * matrix[3][3] - matrix[2][3] * matrix[3][2]) -
